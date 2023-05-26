@@ -1,11 +1,12 @@
 body
 {
   color: white;
-  background: #c0d3ff;
+  background:linear-gradient(#33ccff  0% , #ccccff 100%);
 }
 span
 {
   font-size: 30px;
+  color: black;
 }
 #camera , #result
 {
