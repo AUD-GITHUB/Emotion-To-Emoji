@@ -21,21 +21,25 @@
         <br>
         <span>&#128522;</span>
         <span>&#128512;</span>
+        <span>&#8214;</span>
         <span>&#128532;</span>
+        <span>&#128542;</span>
+        <span>&#8214;</span>
+        <span>&#128544;</span>
         <span>&#128545;</span>
-        <span>&#128546;</span>
-        <span>&#128548;</span>
+        <span>&#8214;</span>
+        <span>&#128550;</span>
+        <span>&#128559;</span>
+        <br>
       </h1>
       <br><br>
 
       <p style="font-size: 22px;">Take your selfie to generate emoji
         <br>
-        <b style="color: yellow">Are you Happy?</b>
-        <br>
-        <b style="color: black">Are you Sad?</b>
-        <br>
-        <b style="color: red">Are you Angry?</b>
-        <br>
+        <b style="color: yellow">Happy?</b>
+        <b style="color: black">Sad?</b>
+        <b style="color: red">Angry?</b>
+        <b style="color: blue">Shocked?</b>
       </p>
       <div class="col-md-4 col-sm-12 col-xs-12">
         <label>Your Webcam :</label><br>
@@ -44,17 +48,18 @@
         <button id="captureBtn" onclick="take_snapshot()" class="btn btn-info">Take Snapshot</button>
       </div>
       <div class="col-md-4 col-sm-12 col-xs-12">
-        <label>Prediction I</label>
-        <p class="emotion_name" id="result_emotion_name1"></p>
+        <h2>Prediction I</h2>
+        <h3 class="emotion_name" id="result_emotion_name1"></h3>
         <p class="emoji" id="update_emoji1"></p>
         <br>
-        <label>Prediction II</label>
-        <p class="emotion_name" id="result_emotion_name2"></p>
+        <h2>Prediction II</h2>
+        <h3 class="emotion_name" id="result_emotion_name2"></h3>
         <p class="emoji" id="update_emoji2"></p>
       </div>
       <div class="col-md-4 col-sm-12 col-xs-12">
         <label>Snapshot - </label><br>
-        <div id="result"></div>
+        <div id="result">
+        </div>
         <br>
         <button id="check" onclick="check()" class="btn btn-success">Predict Emotion</button>
       </div>
